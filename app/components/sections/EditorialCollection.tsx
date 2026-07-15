@@ -11,7 +11,8 @@ export function EditorialCollection({
         <section className="max-w-7xl mx-auto w-full p-8">
             <div className="flex justify-between items-end mb-8 border-b border-border-soft pb-4">
                 <div>
-                    <span className="font-mono text-xs tracking-widest uppercase text-foreground/60">
+                    <span className="font-mono text-xs tracking-widest uppercase
+                    text-foreground/70">
                         Field Notes / Vol. 01
                     </span>
                     <h2 className="font-display text-xl uppercase mt-1">

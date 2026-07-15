@@ -47,7 +47,10 @@ export function HeroSection() {
             </section>
 
             <div className="max-w-7xl mx-auto w-full px-8 pb-16 border-t border-border-soft pt-6">
-                <span className="font-mono text-xs tracking-widest uppercase text-foreground/50 block mb-4">
+                <span
+                    className="font-mono text-xs tracking-widest uppercase
+                text-foreground/70 block mb-4"
+                >
                     Select your category
                 </span>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-3">
