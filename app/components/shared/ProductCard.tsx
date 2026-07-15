@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ShopifyProduct } from "../../lib/types";
+import { ShopifyProduct } from "../../../lib/types";
 
 function getIssueNumber(id: string) {
     const digits = id.replace(/\D/g, "");
