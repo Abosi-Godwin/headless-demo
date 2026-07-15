@@ -1,5 +1,5 @@
 import { ProductCard } from "../shared/ProductCard";
-import { ShopifyProduct } from "../../lib/types";
+import { ShopifyProduct } from "../../../lib/types";
 
 export function EssentialsGrid({ products }: { products: ShopifyProduct[] }) {
     return (

@@ -1,6 +1,6 @@
  import Image from "next/image";
 import { ProductCard } from "../shared/ProductCard";
-import { ShopifyProduct } from "../../lib/types";
+import { ShopifyProduct } from "../../../lib/types";
 
 export function EditorialCollection({
     products
