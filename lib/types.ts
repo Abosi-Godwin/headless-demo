@@ -3,6 +3,7 @@ export interface ShopifyProduct {
     id: string;
     title: string;
     handle: string;
+    productType?: string;
     featuredImage?: { url: string; altText: string };
     priceRange: { minVariantPrice: { amount: string; currencyCode: string } };
 }
