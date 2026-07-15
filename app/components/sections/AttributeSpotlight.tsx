@@ -5,7 +5,8 @@ export function AttributeSpotlight({ product }: { product: ShopifyProduct }) {
     return (
         <section className="bg-border-soft/20 border-y border-border-soft py-16 px-8 my-8">
             <div className="max-w-3xl mx-auto text-center mb-12">
-                <span className="font-mono font-bold text-xs tracking-widest uppercase text-olive">
+                <span className="font-mono font-bold text-xs tracking-widest
+                uppercase text-foreground/70">
                     Core Issue
                 </span>
                 <h2 className="font-display text-2xl uppercase mt-1">
@@ -15,19 +16,21 @@ export function AttributeSpotlight({ product }: { product: ShopifyProduct }) {
             <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
                 <div className="space-y-8 text-right order-2 md:order-1">
                     <div className="p-4 border-b border-border-soft">
-                        <h4 className="font-mono text-sm font-medium uppercase tracking-wider mb-1">
+                        <h3 className="font-mono text-sm font-medium uppercase tracking-wider mb-1">
                             Reinforced Construction
-                        </h4>
+                        </h3>
                         <p className="text-xs text-foreground/70">
-                            Stress points double-stitched to survive daily wear, not just the photo.
+                            Stress points double-stitched to survive daily wear,
+                            not just the photo.
                         </p>
                     </div>
                     <div className="p-4 border-b border-border-soft">
-                        <h4 className="font-mono text-sm font-medium uppercase tracking-wider mb-1">
+                        <h3 className="font-mono text-sm font-medium uppercase tracking-wider mb-1">
                             Honest Materials
-                        </h4>
+                        </h3>
                         <p className="text-xs text-foreground/70">
-                            Canvas, cotton, and blends chosen for durability first, trend second.
+                            Canvas, cotton, and blends chosen for durability
+                            first, trend second.
                         </p>
                     </div>
                 </div>
@@ -45,19 +48,21 @@ export function AttributeSpotlight({ product }: { product: ShopifyProduct }) {
 
                 <div className="space-y-8 text-left order-3">
                     <div className="p-4 border-b border-border-soft">
-                        <h4 className="font-mono text-sm font-medium uppercase tracking-wider mb-1">
+                        <h3 className="font-mono text-sm font-medium uppercase tracking-wider mb-1">
                             Considered Fit
-                        </h4>
+                        </h3>
                         <p className="text-xs text-foreground/70">
-                            Sizing held consistent across the catalog, not roulette between pieces.
+                            Sizing held consistent across the catalog, not
+                            roulette between pieces.
                         </p>
                     </div>
                     <div className="p-4 border-b border-border-soft">
-                        <h4 className="font-mono text-sm font-medium uppercase tracking-wider mb-1">
+                        <h3 className="font-mono text-sm font-medium uppercase tracking-wider mb-1">
                             Built To Outlast
-                        </h4>
+                        </h3>
                         <p className="text-xs text-foreground/70">
-                            Made to earn character over time, not get replaced next season.
+                            Made to earn character over time, not get replaced
+                            next season.
                         </p>
                     </div>
                 </div>
