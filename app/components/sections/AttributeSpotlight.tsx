@@ -5,7 +5,7 @@ export function AttributeSpotlight({ product }: { product: ShopifyProduct }) {
     return (
         <section className="bg-border-soft/20 border-y border-border-soft py-16 px-8 my-8">
             <div className="max-w-3xl mx-auto text-center mb-12">
-                <span className="font-mono font-bold text-xs tracking-widest uppercase text-accent">
+                <span className="font-mono font-bold text-xs tracking-widest uppercase text-olive">
                     Core Issue
                 </span>
                 <h2 className="font-display text-2xl uppercase mt-1">

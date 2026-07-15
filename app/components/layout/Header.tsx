@@ -37,16 +37,24 @@ export function Header() {
                     ))}
                 </nav>
                 <div className="flex items-center gap-5">
-                    <Link href="/search" className="hover:text-accent transition-colors">
+                    <Link
+                        href="/search"
+                        className="hover:text-accent transition-colors"
+                        aria-label="Search the catalog"
+                    >
                         <Search size={16} strokeWidth={1.5} />
+                        <span className="sr-only">Search</span>
                     </Link>
 
                     <Link
                         href="/profile"
                         className="hover:text-accent transition-colors"
+                        aria-label="View user profile"
                     >
                         <User size={16} strokeWidth={1.5} />
+                        <span className="sr-only">Profile</span>
                     </Link>
+
                     <button
                         onClick={toggleCart}
                         className="flex items-center gap-2 font-mono text-xs tracking-widest uppercase border border-border-soft px-3 py-1.5 hover:border-accent hover:text-accent transition-colors"
