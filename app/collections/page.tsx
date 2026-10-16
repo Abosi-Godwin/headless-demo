@@ -5,7 +5,7 @@ const CATEGORIES = [
     { label: "Accessories", handle: "accessories" },
     { label: "Shoes", handle: "shoes" },
     { label: "Tops", handle: "tops" },
-    { label: "Bottoms", handle: "bottoms" },
+    { label: "Bottoms", handle: "bottoms" }
 ];
 
 export default function CollectionsIndexPage() {
@@ -21,7 +21,7 @@ export default function CollectionsIndexPage() {
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                {CATEGORIES.map((cat) => (
+                {CATEGORIES.map(cat => (
                     <a
                         key={cat.handle}
                         href={`/collections/${cat.handle}`}

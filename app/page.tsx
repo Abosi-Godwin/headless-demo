@@ -21,7 +21,6 @@ const HOMEPAGE_QUERY = `{
 export default async function Home() {
     const data = await shopifyFetch<GraphQLResponse>(HOMEPAGE_QUERY);
     const allProducts = data.products.edges.map(e => e.node);
-
     const editorialProducts = allProducts.slice(0, 4);
     const essentialProducts = allProducts.slice(4, 12);
     const spotlightProduct = allProducts[14];
