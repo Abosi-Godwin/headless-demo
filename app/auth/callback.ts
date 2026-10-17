@@ -7,7 +7,7 @@ import {
     getConfig,
     safeNext,
     setSession
-} from "../lib/CustomerAuth";
+} from "../../lib/CustomerAuth";
 
 export const GET = async (request: NextRequest) => {
     try {

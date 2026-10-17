@@ -5,7 +5,7 @@ import {
     COOKIE,
     getConfig,
     getOpenIdConfig
-} from "../lib/CustomerAuth";
+} from "../../lib/CustomerAuth";
 
 export const POST = async (request: NextRequest) => {
     try {
