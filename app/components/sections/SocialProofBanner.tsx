@@ -7,7 +7,7 @@ export function SocialProofBanner() {
                 src="/social-proof-bg.jpg"
                 alt="Canvas texture, considered materials"
                 fill
-                className="object-cover opacity-20"
+                className="object-cover opacity-10"
             />
             <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
                 <div className="flex space-x-12">

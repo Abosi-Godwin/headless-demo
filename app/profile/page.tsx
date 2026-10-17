@@ -1,7 +1,10 @@
-import React from "react";
+import { getCustomer } from "../../lib/CustomerAccount";
+import ProfileClient from "./components/ProfileClient";
 
-const page = () => {
-    return <div>Profile page</div>;
+const ProfilePage = async () => {
+    const customer = await getCustomer();
+
+    return <ProfileClient customer={customer} />;
 };
 
-export default page;
+export default ProfilePage;
