@@ -5,7 +5,7 @@ import type {
     Customer,
     CustomerAddress,
     FormState
-} from "../../lib/CustomerAccount";
+} from "../../../lib/CustomerAccount";
 
 import {
     createAddressAction,
