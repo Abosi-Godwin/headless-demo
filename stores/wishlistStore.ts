@@ -9,7 +9,7 @@ interface WishlistState {
 }
 
 export const useWishlist = create<WishlistState>(
-    persist(
+    
         (set, get) => ({
             wishlistIds: [],
             toggleWishlist: (id, title) => {
@@ -26,9 +26,5 @@ export const useWishlist = create<WishlistState>(
                 );
             },
             isWishlisted: id => get().wishlistIds.includes(id)
-        }),
-        {
-            name: "wishlist-store"
-        }
-    )
+        })
 );
